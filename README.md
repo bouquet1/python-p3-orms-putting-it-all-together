@@ -1,18 +1,18 @@
-# Putting it All Together: ORMs Lab
+lib/dog/py# Putting it All Together: ORMs Lab
 
 ## Learning Goals
 
 - Create Python objects using SQL database records.
 - Create SQL database records using Python objects.
 
-***
+---
 
 ## Key Vocab
 
 - **Object-Relational Mapping (ORM)**: a technique used to convert database
-records into objects in an object-oriented language.
+  records into objects in an object-oriented language.
 
-***
+---
 
 ## Instructions
 
@@ -31,7 +31,7 @@ of imports and instantiations. Here we will generate a `sqlite3.Connection`
 object, `CONN`, and a `sqlite3.Cursor` object, `CURSOR` to be used throughout
 the lab.
 
-***
+---
 
 ## Solving The Lab: The `pytest` Suite
 
@@ -141,7 +141,7 @@ same dog, they just changed their name.
 The SQL you'll need to write for this method will involve using the `UPDATE`
 keyword.
 
-***
+---
 
 ## Resources
 
